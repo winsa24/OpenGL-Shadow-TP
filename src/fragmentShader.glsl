@@ -16,6 +16,7 @@ struct Material {
   // TODO: textures
   sampler2D planeTex;
   bool hasNormalMap;
+  sampler2D albedoTex;
 };
 
 uniform Material material;
@@ -37,9 +38,13 @@ void main() {
   vec3 n = normalize(fNormal);
   vec3 wo = normalize(camPos - fPosition); // unit vector pointing to the camera
 
+  vec3 albedo = material.albedo;
+
   if(material.hasNormalMap){
      n = (texture(material.planeTex, fTexCoord).rgb - 0.5) * 2;
+     albedo = texture(material.albedoTex, fTexCoord).rgb;    
   }
+
 
   vec3 radiance = vec3(0, 0, 0);
   for(int i=0; i<numberOfLights; ++i) {
@@ -48,11 +53,13 @@ void main() {
       vec3 wi = normalize(a_light.position - fPosition); // unit vector pointing to the light
       vec3 Li = a_light.color*a_light.intensity;
       
-      vec3 albedo = material.albedo;
-      
+            
+      //vec3 albedo = material.albedo;
+
       radiance += Li*albedo*max(dot(n, wi), 0);
     }
   }
+
 
   colorOut = vec4(radiance, 1.0); // build an RGBA value from an RGB one
 }

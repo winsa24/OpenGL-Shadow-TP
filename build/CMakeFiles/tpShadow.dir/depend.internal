@@ -4,8 +4,8 @@
 CMakeFiles/tpShadow.dir/src/Mesh.cpp.o
  ../dep/glad/include/KHR/khrplatform.h
  ../dep/glad/include/glad/glad.h
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.cpp
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.h
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.cpp
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.h
  /usr/local/include/glm/common.hpp
  /usr/local/include/glm/detail/_fixes.hpp
  /usr/local/include/glm/detail/_noise.hpp
@@ -392,8 +392,8 @@ CMakeFiles/tpShadow.dir/src/Mesh.cpp.o
 CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o
  ../dep/glad/include/KHR/khrplatform.h
  ../dep/glad/include/glad/glad.h
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.cpp
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.h
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.cpp
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.h
  /usr/local/include/glm/common.hpp
  /usr/local/include/glm/detail/_fixes.hpp
  /usr/local/include/glm/detail/_noise.hpp
@@ -780,11 +780,11 @@ CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o
 CMakeFiles/tpShadow.dir/src/main.cpp.o
  ../dep/glad/include/KHR/khrplatform.h
  ../dep/glad/include/glad/glad.h
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Camera.h
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.h
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.h
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/main.cpp
- /Users/weixiang/Downloads/TP00-Shadow-Mac/src/stb_image.h
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Camera.h
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.h
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.h
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/main.cpp
+ /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/stb_image.h
  /usr/local/include/GLFW/glfw3.h
  /usr/local/include/glm/common.hpp
  /usr/local/include/glm/detail/_fixes.hpp

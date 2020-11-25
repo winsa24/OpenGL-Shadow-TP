@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/weixiang/Downloads/TP00-Shadow-Mac/dep/glad/include -isystem /usr/local/include
+CXX_INCLUDES = -I/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/dep/glad/include -isystem /usr/local/include
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -std=gnu++11
 

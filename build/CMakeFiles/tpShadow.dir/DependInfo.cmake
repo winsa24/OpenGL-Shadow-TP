@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.cpp" "/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles/tpShadow.dir/src/Mesh.cpp.o"
-  "/Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.cpp" "/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o"
-  "/Users/weixiang/Downloads/TP00-Shadow-Mac/src/main.cpp" "/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles/tpShadow.dir/src/main.cpp.o"
+  "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.cpp" "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles/tpShadow.dir/src/Mesh.cpp.o"
+  "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.cpp" "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o"
+  "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/main.cpp" "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles/tpShadow.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/weixiang/Downloads/TP00-Shadow-Mac/build/dep/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/dep/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

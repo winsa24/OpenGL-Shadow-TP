@@ -18,9 +18,9 @@ stdint.h
 KHR/khrplatform.h
 -
 
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/Camera.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Camera.h
 
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.h
 glad/glad.h
 -
 vector
@@ -32,7 +32,7 @@ glm/glm.hpp
 glm/ext.hpp
 -
 
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.h
 glad/glad.h
 -
 string
@@ -44,7 +44,7 @@ glm/glm.hpp
 glm/ext.hpp
 -
 
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/main.cpp
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -80,17 +80,17 @@ algorithm
 exception
 -
 ShaderProgram.h
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.h
 Camera.h
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/Camera.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Camera.h
 Mesh.h
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.h
 stb_image.h
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/stb_image.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/stb_image.h
 
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/stb_image.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/stb_image.h
 stb_image.h
-/Users/weixiang/Downloads/TP00-Shadow-Mac/src/stb_image.h
+/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/stb_image.h
 stdio.h
 -
 stdlib.h

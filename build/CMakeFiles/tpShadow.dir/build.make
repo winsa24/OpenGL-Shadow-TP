@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac
+CMAKE_SOURCE_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/build
+CMAKE_BINARY_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tpShadow.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/tpShadow.dir/flags.make
 
 CMakeFiles/tpShadow.dir/src/main.cpp.o: CMakeFiles/tpShadow.dir/flags.make
 CMakeFiles/tpShadow.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tpShadow.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tpShadow.dir/src/main.cpp.o -c /Users/weixiang/Downloads/TP00-Shadow-Mac/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tpShadow.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tpShadow.dir/src/main.cpp.o -c /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/main.cpp
 
 CMakeFiles/tpShadow.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tpShadow.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weixiang/Downloads/TP00-Shadow-Mac/src/main.cpp > CMakeFiles/tpShadow.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/main.cpp > CMakeFiles/tpShadow.dir/src/main.cpp.i
 
 CMakeFiles/tpShadow.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tpShadow.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weixiang/Downloads/TP00-Shadow-Mac/src/main.cpp -o CMakeFiles/tpShadow.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/main.cpp -o CMakeFiles/tpShadow.dir/src/main.cpp.s
 
 CMakeFiles/tpShadow.dir/src/Mesh.cpp.o: CMakeFiles/tpShadow.dir/flags.make
 CMakeFiles/tpShadow.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tpShadow.dir/src/Mesh.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tpShadow.dir/src/Mesh.cpp.o -c /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tpShadow.dir/src/Mesh.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tpShadow.dir/src/Mesh.cpp.o -c /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.cpp
 
 CMakeFiles/tpShadow.dir/src/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tpShadow.dir/src/Mesh.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.cpp > CMakeFiles/tpShadow.dir/src/Mesh.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.cpp > CMakeFiles/tpShadow.dir/src/Mesh.cpp.i
 
 CMakeFiles/tpShadow.dir/src/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tpShadow.dir/src/Mesh.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weixiang/Downloads/TP00-Shadow-Mac/src/Mesh.cpp -o CMakeFiles/tpShadow.dir/src/Mesh.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/Mesh.cpp -o CMakeFiles/tpShadow.dir/src/Mesh.cpp.s
 
 CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o: CMakeFiles/tpShadow.dir/flags.make
 CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o: ../src/ShaderProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o -c /Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.o -c /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.cpp
 
 CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.cpp > CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.cpp > CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.i
 
 CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weixiang/Downloads/TP00-Shadow-Mac/src/ShaderProgram.cpp -o CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/src/ShaderProgram.cpp -o CMakeFiles/tpShadow.dir/src/ShaderProgram.cpp.s
 
 # Object files for target tpShadow
 tpShadow_OBJECTS = \
@@ -131,9 +131,9 @@ tpShadow: CMakeFiles/tpShadow.dir/build.make
 tpShadow: dep/glad/libglad.a
 tpShadow: /usr/local/lib/libglfw.3.3.dylib
 tpShadow: CMakeFiles/tpShadow.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tpShadow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tpShadow"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tpShadow.dir/link.txt --verbose=$(VERBOSE)
-	/usr/local/Cellar/cmake/3.18.3/bin/cmake -E copy /Users/weixiang/Downloads/TP00-Shadow-Mac/build/tpShadow /Users/weixiang/Downloads/TP00-Shadow-Mac
+	/usr/local/Cellar/cmake/3.18.3/bin/cmake -E copy /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/tpShadow /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP
 
 # Rule to build all files generated by this target.
 CMakeFiles/tpShadow.dir/build: tpShadow
@@ -145,6 +145,6 @@ CMakeFiles/tpShadow.dir/clean:
 .PHONY : CMakeFiles/tpShadow.dir/clean
 
 CMakeFiles/tpShadow.dir/depend:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/weixiang/Downloads/TP00-Shadow-Mac /Users/weixiang/Downloads/TP00-Shadow-Mac /Users/weixiang/Downloads/TP00-Shadow-Mac/build /Users/weixiang/Downloads/TP00-Shadow-Mac/build /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles/tpShadow.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles/tpShadow.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tpShadow.dir/depend
 

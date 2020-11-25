@@ -63,10 +63,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac
+CMAKE_SOURCE_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/build
+CMAKE_BINARY_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -113,14 +113,14 @@ dep/glad/clean: dep/glad/CMakeFiles/glad.dir/clean
 CMakeFiles/tpShadow.dir/all: dep/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tpShadow.dir/build.make CMakeFiles/tpShadow.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tpShadow.dir/build.make CMakeFiles/tpShadow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles --progress-num=3,4,5,6 "Built target tpShadow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles --progress-num=3,4,5,6 "Built target tpShadow"
 .PHONY : CMakeFiles/tpShadow.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tpShadow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tpShadow.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles 0
 .PHONY : CMakeFiles/tpShadow.dir/rule
 
 # Convenience name for target.
@@ -140,14 +140,14 @@ CMakeFiles/tpShadow.dir/clean:
 dep/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles --progress-num=1,2 "Built target glad"
 .PHONY : dep/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 dep/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles 0
 .PHONY : dep/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.

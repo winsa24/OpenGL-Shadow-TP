@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac
+CMAKE_SOURCE_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/build
+CMAKE_BINARY_DIR = /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles /Users/weixiang/Downloads/TP00-Shadow-Mac/build/dep/glad//CMakeFiles/progress.marks
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/build/CMakeFiles 0
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/dep/glad//CMakeFiles/progress.marks
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/clean
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/preinstall
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/preinstall
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dep/glad/CMakeFiles/glad.dir/rule:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/CMakeFiles/glad.dir/rule
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dep/glad/CMakeFiles/glad.dir/rule
 .PHONY : dep/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ glad: dep/glad/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/build
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 src/glad.o: src/glad.c.o
@@ -150,7 +150,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/src/glad.c.o
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -159,7 +159,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/src/glad.c.i
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -168,7 +168,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/src/glad.c.s
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(MAKE) $(MAKESILENT) -f dep/glad/CMakeFiles/glad.dir/build.make dep/glad/CMakeFiles/glad.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -194,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

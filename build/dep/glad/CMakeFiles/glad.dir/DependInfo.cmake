@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/weixiang/Downloads/TP00-Shadow-Mac/dep/glad/src/glad.c" "/Users/weixiang/Downloads/TP00-Shadow-Mac/build/dep/glad/CMakeFiles/glad.dir/src/glad.c.o"
+  "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/dep/glad/src/glad.c" "/Users/weixiang/Downloads/TP00-Shadow-Mac/OpenGL-Shadow-TP/build/dep/glad/CMakeFiles/glad.dir/src/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

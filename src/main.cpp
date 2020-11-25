@@ -229,6 +229,9 @@ struct Light {
 
 
 struct Scene {
+  int  planeTex;
+  int  colorTex;
+
   std::vector<Light> lights;
 
   // meshes
@@ -295,21 +298,28 @@ struct Scene {
       mainShader->set(std::string("lightSources[")+std::to_string(i)+std::string("].isActive"), 1);
     }
 
-    int texture_slot_available = 0;
-    GLuint planeTex = loadTextureFromFileToGPU("data/normal.png");
-    int planeTexOnGPU = 0;
+//    int texture_slot_available = 0;
+//    GLuint planeTex = loadTextureFromFileToGPU("data/normal.png");
+//    int planeTexOnGPU = 0;
 
-    {
-        planeTexOnGPU = texture_slot_available; ++texture_slot_available;
-        glActiveTexture(GL_TEXTURE0 + planeTexOnGPU);
-        glBindTexture(GL_TEXTURE_2D, planeTex);
+//    {
+//        planeTexOnGPU = texture_slot_available; ++texture_slot_available;
+//        glActiveTexture(GL_TEXTURE0 + planeTexOnGPU);
+//        glBindTexture(GL_TEXTURE_2D, planeTex);
+//    }
 
-    }
-
+//    GLuint colorTex = loadTextureFromFileToGPU("data/color.png");
+//    int colorTexOnGPU = 0;
+//    {
+//        colorTexOnGPU = texture_slot_available; ++texture_slot_available;
+//        glActiveTexture(GL_TEXTURE0 + colorTexOnGPU);
+//        glBindTexture(GL_TEXTURE_2D, colorTex);
+//    }
 
     // back-wall
     mainShader->set("material.albedo", glm::vec3(0.29, 0.51, 0.82)); // default value if the texture was not loaded
-    mainShader->set("material.planeTex", planeTexOnGPU); // default value if the texture was not loaded
+    mainShader->set("material.albedoTex", colorTex);
+    mainShader->set("material.planeTex", planeTex);
     mainShader->set("material.hasNormalMap", true);
     mainShader->set("modelMat", planeMat);
     mainShader->set("normMat", glm::mat3(glm::inverseTranspose(planeMat)));    
@@ -537,19 +547,26 @@ void initScene(const std::string &meshFilename)
   }
 
   // TODO: Load and setup textures
+  //int texture_slot_available = 0;
+  GLuint planeTex = loadTextureFromFileToGPU("data/normal.png");
+  GLuint colorTex = loadTextureFromFileToGPU("data/color.png");
+  {
+      int planeTexOnGPU = g_availableTextureSlot; ++g_availableTextureSlot;
+      glActiveTexture(GL_TEXTURE0 + planeTexOnGPU);
+      glBindTexture(GL_TEXTURE_2D, planeTex);
+      g_scene.planeTex = planeTexOnGPU;
+  }
+  {
+      int colorTexOnGPU = g_availableTextureSlot; ++g_availableTextureSlot;
+      glActiveTexture(GL_TEXTURE0 + colorTexOnGPU);
+      glBindTexture(GL_TEXTURE_2D, colorTex);
+      g_scene.colorTex = colorTexOnGPU;
+  }
 
   {
-//    GLuint g_planelTexID = loadTextureFromFileToGPU("data/normal.png");
-
-//    g_scene.wall = std::make_shared<Mesh>();
-//    g_scene.wall->addPlan();
-//    g_scene.plane->initOldGL();
-//    g_scene.planeMat = glm::translate(glm::mat4(1.0), glm::vec3(0, 0, -1.0));
 //    //xiang
 //    vec3 MapNormal = texture2D(normalMap, v_texcoord).xyz; // normal map 中的值
 //    vec3 normal = 2.0*MapNormal-vec3(1.0,1.0,1.0);   // 将法线从[0,1]变换到[-1,1];
-
-
   }
 
   // Setup lights
